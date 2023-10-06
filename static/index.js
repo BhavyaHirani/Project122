@@ -201,7 +201,7 @@ function askBot() {
                 type: 'POST',
 
                 //  write the same URL as written in app.py file
-                url: "/bot-response",
+                url: "/"
 
                 data: JSON.stringify(chat_input_data),
                 dataType: "json",
