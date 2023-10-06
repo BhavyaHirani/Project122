@@ -188,7 +188,7 @@ function askBot() {
         if (user_bot_input_text != "") {
            
             //  add a new div element in the chat window
-            $("#cht_message").append('<div class="user__messages">' + user_bot_input_text + ' </div>')
+            $("#chat_message").append('<div class="user__messages">' + user_bot_input_text + ' </div>')
             
             //Clear the text input box after sending message
             $("#bot_input_text").val('');
